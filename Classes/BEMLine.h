@@ -89,6 +89,10 @@ typedef NS_ENUM(NSUInteger, BEMLineGradientDirection) {
 @property (assign, nonatomic) BOOL disableMainLine;
 
 
+/** Add right padding
+ */
+@property (assign, nonatomic) CGFloat rightPadding;
+
 
 //----- COLORS -----//
 
